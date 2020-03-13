@@ -1,8 +1,6 @@
 import 'dart:convert';
 
 import 'package:army_admin/config/app.dart';
-import 'package:army_admin/pages/soldier/detail.dart';
-import 'package:army_admin/routes/content_navigator_observer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

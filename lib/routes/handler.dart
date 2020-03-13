@@ -6,7 +6,7 @@ import 'package:fluro/fluro.dart';
 
 Handler soldierDetailsHandler =Handler(
   handlerFunc: (BuildContext context,Map<String,List<String>> params){
-    print('index>details goodsID is');
+    print('士兵详情页面');
     return SoldierDetailPage("11000001");
 
   }
@@ -14,7 +14,7 @@ Handler soldierDetailsHandler =Handler(
 
 Handler painPageHandler =Handler(
   handlerFunc: (BuildContext context,Map<String,List<String>> params){
-    print('pain page');
+    print('疼痛页面');
     return PainPage();
 
   }

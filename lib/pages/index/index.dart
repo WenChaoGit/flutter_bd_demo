@@ -13,7 +13,7 @@ class IndexPage extends StatelessWidget {
       appBar: AppBar(
         title: _getTopBar(),
         titleSpacing: 0.0,
-        elevation: 0.056,
+        elevation: 0,
         backgroundColor: Color(0xffFFFFFF),
       ),
       body: Container(
@@ -41,7 +41,7 @@ Widget _menu() {
 
 Widget _getTopBar() {
   return Container(
-    height: ScreenUtil().setHeight(120),
+    height: ScreenUtil().setHeight(190),
     decoration: BoxDecoration(color: Colors.white),
     child: Row(
       children: <Widget>[_getBanner(), _getPageTitle(), _getRightIcon()],
