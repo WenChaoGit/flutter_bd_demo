@@ -18,7 +18,7 @@ class PeTable extends StatelessWidget {
       width: ScreenUtil().setWidth(746),
       height: ScreenUtil().setHeight(431),
       margin: EdgeInsets.only(
-          left: ScreenUtil().setWidth(284), top: ScreenUtil().setHeight(106)),
+          left: ScreenUtil().setWidth(384), top: ScreenUtil().setHeight(106)),
       // decoration: BoxDecoration(color: Color(0xffA6D1DA)),
       child: JsonTable(
         data,

@@ -27,6 +27,7 @@ dependencies:
   fluro: ^1.6.1
   json_table: ^1.3.2
   charts_flutter: ^0.9.0
+  syncfusion_flutter_charts: ^17.4.51
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -49,7 +50,21 @@ flutter:
     # - images/a_dot_ham.jpeg
     - assets/
     - assets/img/
-
+    - assets/h5/
+      # 疼痛页面
+    - assets/h5/pain_stats/
+    - assets/h5/pain_stats/css/
+    - assets/h5/pain_stats/js/
+    - assets/h5/pain_stats/img/
+      # 成绩统计
+    - assets/h5/score_stats/
+    - assets/h5/score_stats/js/
+    - assets/h5/score_stats/css/
+    - assets/h5/score_stats/img/
+      # 士兵详情
+    - assets/h5/soldier_detail/
+    - assets/h5/soldier_detail/css/
+    - assets/h5/soldier_detail/js/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

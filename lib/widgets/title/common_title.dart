@@ -10,14 +10,15 @@ class CommonTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: ScreenUtil().setWidth(204),
-      height: ScreenUtil().setHeight(60),
+      height: ScreenUtil().setHeight(50),
       margin: EdgeInsets.only(top:ScreenUtil().setHeight(30)),
       decoration: BoxDecoration(
         color: ThemeConfig.MAIN_THEMT_COLOR,
         borderRadius: BorderRadius.horizontal(right: Radius.circular(100))
       ),
       child: Container(
-        margin: EdgeInsets.only(top:ScreenUtil().setWidth(10)),
+        // margin: EdgeInsets.only(top:ScreenUtil().setWidth(10)),
+        alignment: Alignment.center,
         child: Text(title,style: TextStyle(
           color: Colors.white,
           fontSize: ScreenUtil().setSp(30),
